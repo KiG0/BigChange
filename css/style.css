@@ -379,6 +379,21 @@ section .screen .content p {
         width: 65%!important;
     }
 }
+@media (min-height: 1050px) {
+    .penl {
+        font-size: 28px;
+    }
+}
+@media (max-height: 790px) {
+    .penl {
+        font-size: 23px;
+    }
+}
+@media (max-height: 700px) {
+    .penl {
+        font-size: 21px;
+    }
+}
 @media (max-width: 1200px) {
     .carousel-captions {
         bottom: 15%;
