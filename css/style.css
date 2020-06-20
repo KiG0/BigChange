@@ -405,7 +405,7 @@ section .screen .content p {
 }
 @media(min-height: 1080px) {
     #text {
-        font-size: calc(100px + 20 * (100vw / 1280));
+        font-size: 100px;
     }
 }
 @media(max-width: 940px) {
