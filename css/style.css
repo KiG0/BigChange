@@ -403,6 +403,11 @@ section .screen .content p {
         bottom: 20%;
     }
 }
+@media(min-height: 1080px) {
+    #text {
+        font-size: calc(100px + 20 * (100vw / 1280));
+    }
+}
 @media(max-width: 940px) {
     .carousel-captions:nth-child(1),
     .carousel-captions:nth-child(3) {
